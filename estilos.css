@@ -19,6 +19,7 @@
 
 .menu li{
     padding-left: 30px;
+    text-align: left;
 }
 
 .menu a{
@@ -27,21 +28,27 @@
     font-size: 18px;
     text-align: left;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .menu a.link-ativo{
-    text-align: left;
+    text-align: right;
     color: black;
     font-size: 18px;
     text-decoration: none;
 }
 
 .fotinhas{
-    background-color: #e4e3e3;
-    padding: 15px 15px;
-    border-radius: 20px;    
+    background-color: #F2F3F5;
+    padding: 18px 18px;
+    border-radius: 30px;    
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.coluna-esq{
+    margin: 0 auto;
+    display: block;
 }
 
 .background{
@@ -54,7 +61,7 @@
     margin: 0 auto;
 }
 
-.gabada{
+.titulo{
     width: 627px;
     height: 200px;
     font-weight: 700;
@@ -64,7 +71,7 @@
     margin-left: 60px;
 }
 
-.dydy{
+.cadastro{
     width: 609px;
     height: 36px;
     font-weight: 400;
@@ -74,12 +81,43 @@
     margin-left: 60px;
 }
 
-.coluna-dir{
+.nsei{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
     align-items: center;
     margin: 0 auto;
-    display: flex;
-    
+    margin-left: 60px;
+    width: 172px;
+    height: 23px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 422px;
+    height: 62px;
 }
+
+.botao{
+    width: 75px;
+    height: 58px;
+    background: rgba(66, 0, 255, 0.8);
+    border-radius: 8px;
+}
+
+.botao2{
+    width: 75px;
+    height: 58px;
+    background: rgba(66, 0, 255, 0.8);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.coluna-dir{
+
+    margin: 0 auto;
+}    
 
 .background2{
    align-items: center;
@@ -96,6 +134,7 @@
 .background3{
     align-items: center;
     text-align: center;
+    display: flex;
     margin: 0 auto;
     background: #F9F9F9;
     border-radius: 4px 0px 0px 4px;
