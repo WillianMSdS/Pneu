@@ -157,3 +157,11 @@
     line-height: 18px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.background3 > header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 780px;
+    margin:  0 auto;
+    grid-gap: 20px;
+}
